@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form name="username">
+        <div class="form-group">
+            <label for="username">username</label>
+            <input 
+            id="username"
+            type="text"
+            placeholder="nhập vào username">
+            
+        </div>
+    
+    <div name="pass-word">
+        <div class="form-group">
+            <label for="password">password</label>
+            <input
+            id="password" 
+            type="password" required />
+            <placeholder="mật khẩu"/>
+        </div>
+        <div class="form-group">
+            <label for="birthday">birthday</label>
+
+            <input
+            id="birthday"
+             type="date">
+        </div>
+        <div class="form-group">
+            <label for="number">number</label>
+            <input id="number" type="number">
+        </div>
+        <div class="form-group">
+            <input type="file">
+        </div>
+        <div class="form-group">
+            <label for="male">male</label>
+            <input id="male" name="gender" value="nam" type="radio">
+        </div>
+
+            <div class="form-group">
+            <label for="fermale">fermale</label>
+            <input id="fermale" name="gender" value="nữ" type="radio">
+        </div>
+        
+        <div class="form-group">
+            <textarea name="note" id=""
+            cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="city">city</label>
+            <select id="city" name="city" multiple>
+                <option value="hanoi">Hà Nội</option>
+                <option value="hcm">Hồ chí minh</option>
+                 <option value="nđ">Nam định</option>  
+        </div>
+
+       
+        <div class="form-group">
+            <input type="submit">
+            <input type="reset">
+            <input type="button" value="click">
+        </div>
+      
+          
+        </div>
+    </form>
+    
+</body>
+</html>

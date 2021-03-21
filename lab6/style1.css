@@ -1,0 +1,18 @@
+.form-group{
+    margin-bottom: 10px;
+}
+.buttom-group{
+    margin-left: 154px;
+}
+
+.form-group{
+    display: block;
+    margin-left: 30px;
+}
+textarea{
+    resize: none;
+}
+ * {
+     box-sizing: border-box;
+ }
+ 
