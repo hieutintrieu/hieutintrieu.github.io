@@ -1,0 +1,36 @@
+form {
+    background-color: aqua;
+    text-align: center;
+    width: 396px;
+    height: 313px;
+    display: block;
+    margin-top: 16px;
+    
+}
+.button .lognin {
+   ackground-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+   
+}
+.logo {
+    width: 71%;
+    text-align: center;
+    
+    margin-left: 70px;
+    display: block;
+}
+
+body {
+    width: 811px;
+    height: 908px;
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+}
