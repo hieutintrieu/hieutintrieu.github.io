@@ -1,4 +1,4 @@
-// let a = prompt("nhap so");
+// let a = Number(prompt("nhap so"));
 // function mm(a) {
 //   return a / 10;
 // }
@@ -14,18 +14,18 @@
 // console.log("m: "+m(a));
 // console.log("km: " + km(a));
 
-// let a = prompt("Celsius");
+// let a = Number(prompt("Celsius"));
 
 // function Fahrenheit(a) {
 //     return (a * 9/5) + 32;
 // }
 // function Kevin(a) {
-//     return a + 273.15;
+//     return a + 273;
 // }
 // console.log("Fahrenheit : " + Fahrenheit(a));
 // console.log("Kevin : " + Kevin(a));
 
-let a = prompt("time-s")
+let a = Number(prompt("time-s"));
 function phut(a) {
    return a / 60;
 }
